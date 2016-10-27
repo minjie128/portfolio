@@ -3,43 +3,48 @@
   <head>
     <meta charset="utf-8">
     <title>Projects - Jie Min</title>
+    <link rel="stylesheet" type="text/css" href="styles/first-stylesheet.css">
   </head>
   <body>
     <header>
       <h1>Jie's Portfolio</h1>
       <nav>
-        <a href="index.html">About</a> |
-        <a href="#">Projects</a> |
-        <a href="#">Resume</a> |
-        <a href="#">Contact</a>
+        <ul>
+          <li><a href="index.html">About</a></li> 
+          <li><a href="#">Projects</a></li> 
+          <li><a href="#">Resume</a></li> 
+          <li><a href="#">Contact</a></li>
+        </ul>
       </nav>
     </header>
-    <section>
-      <h2>Selected Projects</h2>
-      <ul>
-        <li>
-          <a href="https://github.com/minjie128/hello-world" target="_blank">Hello World</a>
-          <figure>
-            <img src="http://farm1.static.flickr.com/194/472097903_b781a0f4f8.jpg">
-            <figcaption>Hello Word toast by Oskay on flicker.</figcaption>
-          </figure>
-        </li>
-        <li>
-          <a href="https://github.com/minjie128/duck_example" target="_blank">About Ducks</a>
-          <figure>
-            <img src="http://img13.deviantart.net/d801/i/2011/332/6/f/the_majestic_space_duck_by_animaniac43-d4hm37e.png">
-            <figcaption>The majestic space duck.</figcaption>
-          </figure>
-        </li>
-        <li>
-          <a href="https://github.com/minjie128/semantic_tags" target="_blank">Visit Shanghai</a>
-          <figure>
-            <img src="http://www.chinadailyasia.com/attachement/jpg/site441/20151111/1447216310349_993.jpg">
-            <figcaption>Early morning scenery of Bund.</figcaption>
-          </figure>
-        </li>        
-      </ul>
-    </section>
+    <main>
+      <section>
+        <h2>Selected Projects</h2>
+        <ul id="portfolio-list">
+          <li class="portfolio-column-left">
+            <a href="https://github.com/minjie128/hello-world" class="portfolio-list-item" target="_blank">Hello World</a>
+            <figure>
+              <img src="http://farm1.static.flickr.com/194/472097903_b781a0f4f8.jpg" class="portfolio-list-picture">
+              <figcaption>Hello World toast by Oskay on flicker</figcaption>
+            </figure>
+          </li>
+          <li class="portfolio-column-center">
+            <a href="https://github.com/minjie128/duck_example" class="portfolio-list-item" target="_blank">About Ducks</a>
+            <figure>
+              <img src="http://img13.deviantart.net/d801/i/2011/332/6/f/the_majestic_space_duck_by_animaniac43-d4hm37e.png" class="portfolio-list-picture">
+              <figcaption>The majestic space duck</figcaption>
+            </figure>
+          </li>
+          <li class="portfolio-column-right">
+            <a href="https://github.com/minjie128/semantic_tags" class="portfolio-list-item" target="_blank">Visit Shanghai</a>
+            <figure>
+              <img src="http://www.chinadailyasia.com/attachement/jpg/site441/20151111/1447216310349_993.jpg" class="portfolio-list-picture">
+              <figcaption>Early morning scenery of Bund</figcaption>
+            </figure>
+          </li>        
+        </ul>
+      </section>
+    </main>  
     <footer>
       <p>Find me on <a href="https://www.linkedin.com/in/jie-min-b9b02681">LinkedIn</a>, or you may email me at <a href="mailto:minjie128@gmail.com?Subject=I%20Love%20UX%20Design%20Too">minjie128@gmail.com</a></p>
       <p>&copy; 2016 Jie Min</p>
