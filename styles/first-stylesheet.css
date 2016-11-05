@@ -1,9 +1,4 @@
 body {
-  background-image: url("http://content.mycutegraphics.com/graphics/sun/smiling-hot-sun.png");
-  background-size: 106px 103px;
-  background-repeat: no-repeat;
-  background-origin: content-box;
-  background-attachment: fixed;
   background-color: #7D4627;
   font-size: 100%;
 }
