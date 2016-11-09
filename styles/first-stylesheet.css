@@ -55,9 +55,9 @@ nav a:hover {
   font-weight: bold;
 }
 
-nav a:active {
+.current-page {
   color: #FF9666;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 main {
