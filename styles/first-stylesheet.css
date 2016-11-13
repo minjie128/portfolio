@@ -92,8 +92,8 @@ article, section {
 
 .grid-item img {
   width: 100%;
-  height: 20rem;
-  transition: all .3s ease-out;
+  height: 40vw;
+  transition: all .3s ease-in-out;
   position: relative;
 }
 
@@ -103,8 +103,9 @@ article, section {
   color: #666666;
 }
 
-.grid-item a:hover img {
+.grid-item:hover img {
   opacity: 0.1;
+  transform: scale(1.1,1.1);
 }
 
 .project-index-content {
@@ -115,7 +116,7 @@ article, section {
   text-align: center;
 }
 
-.grid-item a:hover .project-index-content {
+.grid-item:hover .project-index-content {
   opacity: 1;
 }
 
