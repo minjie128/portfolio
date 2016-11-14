@@ -198,6 +198,14 @@ aside ul {
   font-weight: 200;
 }
 
+aside li:nth-child(odd) {
+  list-style: disc;
+}
+
+aside li:nth-child(even) {
+  list-style: circle;
+}
+
 aside p {
   font-style: italic;
 }
