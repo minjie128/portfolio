@@ -176,7 +176,7 @@ p.about-me {
   width: 60%;
   padding-left: 1.5rem;
   text-indent: 1.5rem;
-  line-height: 1.2;
+  line-height: 1.3;
   clear: both;
 }
 
@@ -184,13 +184,17 @@ p.about-me:first-letter {
   font-size: 200%;
 }
 
+.about-me a {
+  color: #174C4F;
+}
+
 aside {
   width: 25%;
   float: right;
   background-color: #FF9666;
-  margin-top: -8rem;
+  margin-top: -7rem;
   margin-right: 1.5rem;
-  padding: 0 1rem;
+  padding: 0.5rem 1rem;
 }
 
 aside ul {
