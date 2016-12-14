@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Learn Web Development | Jie Min</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <style>
+      img {width: 100%;}
+    </style>
+  </head>
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="about.html">Jie Min</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#myPage">Home</a></li>
+            <li><a href="#trends">Hottest Trends</a></li>
+            <li><a href="#facts">Interesting Facts</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">More Resources
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#courses">Training Courses</a></li>
+                <li><a href="#books">Must Read Books</a></li>
+                <li><a href="#tools">Awesome Tools</a></li> 
+              </ul>
+            </li>
+            <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+          </ul>
+        </div>       
+      </div>
+    </nav>
+    
+    <!-- Carousel -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="images/webdev-carousel-1.jpg" alt="learn coding online" width="1200" height="700">
+            <div class="carousel-caption">
+              <h3>Online Courses</h3>
+              <p>Best places that will teach you coding for free.</p>
+            </div>      
+          </div>
+          <div class="item">
+            <img src="images/webdev-carousel-2.jpg" alt="responsive design" width="1200" height="700">
+            <div class="carousel-caption">
+              <h3>Responsive Design</h3>
+              <p>Responsive web design is about a whole new way of thinking about design.</p>
+            </div>      
+          </div>
+          <div class="item">
+            <img src="images/webdev-carousel-3.jpg" alt="website layout trends" width="1200" height="700">
+            <div class="carousel-caption">
+              <h3>Design Trends</h3>
+              <p>The big website layout trends you can expect to see in 2017.</p>
+            </div>      
+          </div>
+        </div>
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div>    
+    
+    <!-- Container (The Hottest Trends Section) -->
+    <div id="trends" class="container">
+      <h3>Web Development Trends for 2017</h3>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Artificial intelligence</h3>
+        </div>
+        <div class="panel-body">
+          <p>Whenever you talk about the future of technology, artificial intelligence (AI) is always high on the agenda. But right now, I think it is actually justified. A lot of advances have been made in the field of AI in the last year.</p>
+          <p><b>AlphaGo, a program built by Google DeepMind, became the first program beat a professional Go player.</b></p>
+          <p>Some of the biggest tech companies, such as Google, Microsoft and Facebook, have been releasing their AI technology to be used by the public. Artificial intelligence is already used by large applications, either to improve search engines, like in Google’s case, or in Wikipedia's case to identify inaccurate or damaged articles.</p>
+          <p>With easier access to the necessary tools for AI development, we can expect developers to start using AI in new and different ways in the new year.</p>
+          <button type="button" class="btn btn-primary">Learn More</button>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Virtual reality</h3>
+        </div>
+        <div class="panel-body">
+          <p>Another topic that always seems to surface when discussing the future of technology is virtual reality or VR. This trend has already started to sweep the gaming industry. The Oculus Rift and the Vive bring new and interesting possibilities to the world of gaming, but it won’t stop there.</p>
+          <p>Companies including Google and Mozilla have begun work on APIs to help VR technology transition to the web. As standards develop, we expect more and more applications to be developed using VR technologies.</p>
+          <p><b>In the coming year, we'll see virtual reality in various applications, ranging from news coverage, to virtual real estate tours.</b></p>
+          <button type="button" class="btn btn-primary">Learn More</button>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Internet of Things (IoT)</h3>
+        </div>
+        <div class="panel-body">
+          <p>The internet of things is a movement where typically non-internet-connected objects are given network connectivity in order to send and receive data. These objects can range from your toaster or kettle, to sensors on motors or sensors embedded in concrete to detect cracks and weaknesses.</p>
+          <p>Web developers may not be directly involved in the creation of such devices. However, it's likely we'll be involved in the development of applications that use, analyse and display the devices’ data. Companies such as Xively and BugLabs have already started working on APIs that can be used by developers to communicate with IoT devices.</p>
+          <p>Though IoT brings a lot of opportunity for innovation, some concerns have been raised, especially around security. <b>No doubt web developers will have interesting challenges to face - helping to protect our fittings and furnishings from hackers.</b></p>
+          <button type="button" class="btn btn-primary">Learn More</button>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Bots become standard UX</h3>
+        </div>
+        <div class="panel-body">
+          <p>Or as Casey Newton from TheVerge wrote:</p>
+          <blockquote>
+            <p>Bots are here, they’re learning — and in 2016, they might eat the web</p>
+          </blockquote>
+          <p>If you sign up for a new Slack account, a so-called Slackbot welcomes and on-boards you. The Slackbot not only asks you for your name (which is then automatically saved in your slack account) but for some other things as well.</p>
+          <p>It’s not only Slack. Bots are popping up in many more of our beloved tools and apps, whether it’s Facebook, Telegram or WeChat. It feels like the beginning of a new era, an era full of different bots, all making our life easier.</p>
+          <button type="button" class="btn btn-primary">Learn More</button>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Web design evolution</h3>
+        </div>
+        <div class="panel-body">
+          <p>If you're interested in design, here are a few trends to watch out for next year:</p>
+          <ol>
+            <li>Movement based interfaces will probably become a staple on the web. Perhaps when combined with libraries such as tracking.js, interfaces that respond to hand movements could be closer than we think.</li>
+            <li>Bolder and larger typography is likely to become more prevalent.</li>
+            <li>People often want engaging and compelling ways to get their information quickly. This will likely elicit a rise in the use of videos and other storytelling visuals.</li>
+          </ol>
+          <p>The web is an interesting place, where nothing stands still for too long. Information is always changing and the methods we use to deal with that information will always evolve along with it.</p>
+          <p>2017 is likely to bring some very interesting developments in web technologies, and I, for one, am looking forward to seeing what it holds in store for us! </p>
+          <button type="button" class="btn btn-primary">Learn More</button>
+        </div>
+      </div>      
+    </div>
+    
+    <!-- Container (The Interesting Facts Section) -->
+    <div id="facts" class="container">
+      <h3>Interesting Facts that Will Blow Your Mind</h3>
+      <div class="jumbotron">
+        <h1>Little Known Facts</h1>
+        <p>If you truly want to understand the web design process, you must look beyond just the outward visual appearance of a website. Very few visitors consider what happens behind the scenes of a website, as different web browsers interpret code to display that site on the screen. Extra milliseconds of loading time, browser variations, the age of the code, and the content itself can completely change a user’s experience and resulting behaviors on a website. Let’s take a look behind the curtain to learn about some of the most surprising and amazing aspects of web design.</p>
+        <p><a class="btn btn-primary btn-lg" href="http://www.lifehack.org/articles/technology/8-web-design-facts-that-will-blow-your-mind.html" target="_blank" role="button">Read Full Article</a></p>
+      </div>
+    </div>
+    
+    <!-- Container (The Training Courses Section) -->
+    <div id="courses" class="container">
+      <h3>Best Web Development Courses for Beginners</h3>
+      <div class="row">
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="images/codecademy-logo2.png" alt="Codecademy">
+            <div class="caption">
+              <h3>Codecademy</h3>
+              <p>Codecademy provides a series of self-guided tutorials for beginners to learn the basics of web development programming. An in-browser, self-contained development environment is created where you can learn the basic structures of front-end code like HTML and CSS, before moving on to back-end languages such as Ruby on Rails.</p>
+              <p><a href="https://www.codecademy.com/" class="btn btn-primary" role="button">Visit Now</a> <a class="btn btn-default" role="button" data-toggle="modal" data-target="#codecademyDetails">More Details...</a></p>
+              <!-- Codecademy Modal -->
+              <div class="modal fade" id="codecademyDetails" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title">More about Codecademy</h4>
+                    </div>
+                    <div class="modal-body">
+                      <h5>About Codecademy</h5>
+                      <p>Codecademy is an education company. But not one in the way you might think. We're committed to building the best learning experience inside and out, making Codecademy the best place for our team to learn, teach, and create the online learning experience of the future.</p>
+                      <p>Education is old. The current public school system in the US dates back to the 19th century and wasn't designed to scale the way it has. Lots of companies are working to "disrupt" education by changing the way things work in the classroom and by bringing the classroom online.</p>
+                      <h5>Our Mission</h5>
+                      <p>We're not one of those companies. We are rethinking education from the bottom up. The web has rethought nearly everything - commerce, social networking, healthcare, and more. We are building the education the world needs - the first truly net native education. We take more cues from Facebook and Zynga in creating an engaging educational experience than we do from the classroom.</p>
+                      <p>Education is broken. Come help us build the education the world deserves.</p>
+                      <h5>Our team</h5>
+                      <div class="row">
+                        <div class="col-md-4">
+                          <figure>
+                            <img src="images/daniel-duffy.jpg" alt="Daniel O'Duffy">
+                            <figcaption>Daniel O'Duffy - Community Manager</figcaption>
+                          </figure>
+                        </div>
+                        <div class="col-md-4">
+                          <figure>
+                            <img src="images/guyen-dinh.jpg" alt="Guyen Dinh">
+                            <figcaption>Guyen Dinh - Product Designer</figcaption>
+                          </figure>
+                        </div>
+                        <div class="col-md-4">
+                          <figure>
+                            <img src="images/ryan-bubinski.jpg" alt="Ryan Bubinski">
+                            <figcaption>Ryan Bubinski - Co-founder</figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>              
+            </div>
+          </div>
+        </div>
+          <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="images/udacity-logo2.png" alt="Udacity">
+            <div class="caption">
+              <h3>Udacity</h3>
+              <p>Udacity is structured more like a college degree. It offers courses in everything from web development, to data science and software engineering. With contributions from companies such as Google, Facebook, Twitter, and Salesforce, you can learn basic HTML and CSS one day, and Artificial Intelligence the next.</p>
+              <p><a href="https://www.udacity.com/" class="btn btn-primary" role="button">Visit Now</a> <a class="btn btn-default" role="button" data-toggle="modal" data-target="#udacityDetails">More Details...</a></p>
+              <!-- Udacity Modal -->
+              <div class="modal fade" id="udacityDetails" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title">More about Udacity</h4>
+                    </div>
+                    <div class="modal-body">
+                      <h5>Our Mission</h5>
+                      <p>Our mission is to bring accessible, affordable, engaging, and highly effective higher education to the world. We believe that higher education is a basic human right, and we seek to empower our students to advance their education and careers.</p>
+                      <p>Education is no longer a one-time event but a lifelong experience. Education should be less passive listening (no long lectures) and more active doing. Education should empower students to succeed not just in school but in life.</p>
+                      <h5>University by Industry</h5>
+                      <p>We are building an online university, "by Silicon Valley", that:</p>
+                        <ul class="list-unstyled">
+                          <li>teaches the skills that industry employers need today</li>
+                          <li>delivers credentials endorsed by employers</li>
+                          <li>educates at a fraction of the cost of traditional schools</li>
+                        </ul>
+                      <p>With industry giants — Google, Facebook, Salesforce, Cloudera, etc.— we offer Nanodegree programs and credentials, designed so professionals become Web Developers, Data Analysts, Mobile Developers, etc. Our students acquire real skills through a series of online courses and hands-on projects.</p>
+                      <h5>Our Story</h5>
+                      <p>Udacity was born out of a Stanford University experiment in which Sebastian Thrun and Peter Norvig offered their "Introduction to Artificial Intelligence" course online to anyone, for free. Over 160,000 students in more than 190 countries enrolled and not much later, Udacity was born. Now we're a growing team of educators and engineers on a mission to change the future of education by bridging the gap between real-world skills, relevant education, and employment.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>               
+            </div>
+          </div>
+        </div>
+          <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="images/coursera-logo.jpg" alt="Coursera">
+            <div class="caption">
+              <h3>Coursera</h3>
+              <p>Similar to MIT OpenCourseware, Coursera offers a plethora of online courses from a variety of universities around the world for free.  Each course varies slightly in format and timeline, but numerous courses are available for programming, development, and computer science to get a taste. Take the best courses, online. Join Coursera for free.</p>
+              <p><a href="https://www.coursera.org/" class="btn btn-primary" role="button">Visit Now</a> <a class="btn btn-default" role="button" data-toggle="modal" data-target="#courseraDetails">More Details...</a></p>
+              <!-- Coursera Modal -->
+              <div class="modal fade" id="courseraDetails" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title">More about Coursera</h4>
+                    </div>
+                    <div class="modal-body">
+                      <h5>Courses</h5>
+                      <p>Every course on Coursera is taught by top instructors from the world’s best universities and educational institutions. Courses include recorded video lectures, auto-graded and peer-reviewed assignments, and community discussion forums. When you complete a course, you’ll receive a sharable electronic Course Certificate.</p>
+                      <ul>
+                        <li>Online and open to everyone</li>
+                        <li>Learn a new skill in 4-6 weeks</li>
+                        <li>Priced at about $29-$99</li>
+                        <li>Earn a Course Certificate</li>
+                      </ul>
+                      <h5>Specializations</h5>
+                      <p>If you want to master a specific career skill, consider joining a Specialization. You’ll complete a series of rigorous courses, tackle hands-on projects based on real business challenges, and earn a Specialization Certificate to share with your professional network and potential employers.</p>
+                      <ul>
+                        <li>Online and open to everyone</li>
+                        <li>Learn a new skill in 4-6 weeks</li>
+                        <li>Priced at $250-$500</li>
+                        <li>Earn a Specialization Certificate</li>
+                      </ul>
+                      <h5>Online Degrees</h5>
+                      <p>Real career transformation sometimes requires a university-recognized degree. Coursera believes that transformation should be accessible to everyone, so we’ve worked with our university partners to offer flexible, affordable online degree programs in business, computer science, and data science.</p>
+                      <ul>
+                        <li>All online - admission required</li>
+                        <li>1-3 years of study</li>
+                        <li>Currently priced at $15-$25,000</li>
+                        <li>Earn an accredited master’s degree</li>
+                      </ul>                      
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>                
+            </div>
+          </div>
+        </div>
+      </div>      
+    </div>
+    
+    <!-- Container (The Must Read Books Section) -->
+    <div id="books" class="container">
+      <h3>Must-read Books on Web Development</h3>
+      <ul class="list-group">
+        <li class="list-group-item">
+          <div class="row">
+            <div class="col-md-2 col-sm-2 hidden-xs">
+              <img src="images/webdev-book-1.jpg" alt="JavaScript: The Good Parts">
+            </div>
+            <div class="col-md-8 col-sm-6 col-xs-12">          
+              <h4>JavaScript: The Good Parts</h4>
+              <p>by Douglas Crockford</p>
+              <p>Most programming languages contain good and bad parts, but JavaScript has more than its share of the bad, having been developed and released in a hurry before it could be refined. This authoritative book scrapes away these bad features to reveal a subset of JavaScript that's more reliable, readable, and maintainable than the language as a whole-a subset you can use to create truly extensible and efficient code.</p>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-0">
+              <div class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Want to Read <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a>Want to Read</a></li>
+                  <li><a>Currently Reading</a></li>
+                  <li><a>Read</a></li>
+                </ul>              
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <div class="row">
+            <div class="col-md-2 col-sm-2 hidden-xs">
+              <img src="images/webdev-book-2.jpg" alt="HTML and CSS: Design and Build Websites">
+            </div>
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <h4>HTML and CSS: Design and Build Websites</h4>
+              <p>by Jon Duckett</p>
+              <p>Every day, more and more people want to learn some HTML and CSS. Joining the professional web designers and programmers are new audiences who need to know a little bit of code at work (update a content management system or e-commerce store) and those who want to make their personal blogs more attractive. Many books teaching HTML and CSS are dry and only written for those who want to become programmers, which is why this book takes an entirely new approach.</p>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-0">
+              <div class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Want to Read <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a>Want to Read</a></li>
+                  <li><a>Currently Reading</a></li>
+                  <li><a>Read</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <div class="row">
+            <div class="col-md-2 col-sm-2 hidden-xs">
+              <img src="images/webdev-book-3.jpg" alt="Eloquent JavaScript: A Modern Introduction to Programming">
+            </div>
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <h4>Eloquent JavaScript: A Modern Introduction to Programming</h4>
+              <p>by Marijn Haverbeke</p>
+              <p>Eloquent JavaScript goes beyond the cut-and-paste scripts of the recipe books and teaches you to write code that's elegant and effective. You'll start with the basics of programming, and learn to use variables, control structures, functions, and data structures. Then you'll dive into the real JavaScript artistry: higher-order functions, closures, and object-oriented programming.</p>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-0">
+              <div class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Want to Read <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a>Want to Read</a></li>
+                  <li><a>Currently Reading</a></li>
+                  <li><a>Read</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>        
+        </li>
+        <li class="list-group-item">
+          <div class="row">
+            <div class="col-md-2 col-sm-2 hidden-xs">
+              <img src="images/webdev-book-4.png" alt="Mobile First">
+            </div>
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <h4>Mobile First</h4>
+              <p>by Luke Wroblewski</p>
+              <p>Our industry’s long wait for the complete, strategic guide to mobile web design is finally over. Former Yahoo! design architect and co-creator of Bagcheck Luke Wroblewski knows more about mobile experience than the rest of us, and packs all he knows into this entertaining, to-the-point guidebook. Its data-driven strategies and battle tested techniques will make you a master of mobile—and improve your non-mobile design, too!</p>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-0">
+              <div class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Want to Read <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a>Want to Read</a></li>
+                  <li><a>Currently Reading</a></li>
+                  <li><a>Read</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>        
+        </li>
+        <li class="list-group-item">
+          <div class="row">
+            <div class="col-md-2 col-sm-2 hidden-xs">
+              <img src="images/webdev-book-5.jpg" alt="JavaScript: The Definitive Guide">
+            </div>
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <h4>JavaScript: The Definitive Guide</h4>
+              <p>by David Flanagan</p>
+              <p>This book is both an example-driven programmer's guide and a keep-on-your-desk reference, with new chapters that explain everything you need to know to get the most out of JavaScript, including: Scripted HTTP and Ajax XML processing Client-side graphics using the canvas tag Namespaces in JavaScript--essential when writing complex programs Classes, closures, persistence, Flash, and JavaScript embedded in Java applications.</p>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-0">
+              <div class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Want to Read <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a>Want to Read</a></li>
+                  <li><a>Currently Reading</a></li>
+                  <li><a>Read</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>        
+        </li>
+      </ul>
+    </div>
+    
+    <!-- Container (The Awesome Tools Section) -->
+    <div id="tools" class="container">
+      <h3>Awesome Free Tools and Resources for Web Developers</h3>
+      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Brackets
+              </a>
+            </h4>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body">
+              <p>You'd think by now that the concept of the code editor would be pretty mature. There's so many out there and they're all so similar it's easy to imagine that the final blueprint has been found. <a href="https://github.com/adobe/brackets/">Brackets</a> shows that even at this level there's plenty of possibilities left to explore.</p>
+              <p>The central goal for Brackets seems to be a removal of all the repetitive little tasks we fold into the development process. Browser reloading, editing an element's CSS, function searching. Full credit to those involved because, even at beta stage, Brackets is refreshingly good to use.</p>
+              <p>And if you'd like an augmented experience, now you can sign up for Adobe's creative cloud and get Edge Code. Built on Brackets, Edge Code adds some excellent features for typography and PhoneGap.</p>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingTwo">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Trello
+              </a>
+            </h4>
+          </div>
+          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+            <div class="panel-body">
+              <p>There are a surprisingly large number of project management tools out there. They clock time and assign teams, but very few of them have the kind of natural appeal which <a href="https://trello.com/">Trello</a> exhibits in spades.</p>
+              <p>The central goal for Brackets seems to be a removal of all the repetitive little tasks we fold into the development process. Browser reloading, editing an element's CSS, function searching. Full credit to those involved because, even at beta stage, Brackets is refreshingly good to use.</p>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingThree">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Chrome Developer Tools
+              </a>
+            </h4>
+          </div>
+          <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div class="panel-body">
+              <p>Wouldn’t it be great if you could edit your HTML and CSS in real-time, or debug your JavaScript, all while viewing a thorough performance analysis of your website?</p>
+              <p>Google’s built-in Chrome Developer Tools let you do just that. Bundled and available in both Chrome and Safari, they allow developers access into the internals of their web application. On top of this, a palette of network tools can help optimize your loading flows, while a timeline gives you a deeper understanding of what the browser is doing at any given moment.</p>
+              <p>Google release an update every six weeks – so check out their <a href="https://developers.google.com/web/tools/chrome-devtools/?hl=en">website</a> as well as the Google Developers <a href="https://www.youtube.com/user/GoogleDevelopers">YouTube</a> channel to keep your skillset up-to date.</p>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingFour">
+            <h4 class="panel-title">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                GitHub
+              </a>
+            </h4>
+          </div>
+          <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+            <div class="panel-body">
+              <p>It’s every developer’s worst nightmare – you’re working on a new project feature and you screw up. Enter version control systems (VCS) – and more specifically, GitHub.</p>
+              <p>By rolling out your project with the service, you can view any changes you’ve made or even go back to your previous state (making pesky mistakes a thing of the past). The repository hosting service also boasts a rich open-source development community (making collaboration between teams as easy as pie), as well as providing several other components such as bug tracking, feature requests, task management, and wikis for every project.</p>
+              <p>Many employers will look for finely honed Git skills, so now’s the perfect time to sign up – plus it’s a great way to get involved and learn from the best with a wide array of open-source projects to work on.</p>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingFive">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                Twitter Bootstrap
+              </a>
+            </h4>
+          </div>
+          <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+            <div class="panel-body">
+              <p>Getting tired of typing in that same styling for a container? How about that button that keeps cropping up? Once you start building front-end applications regularly, you’ll start to notice the same patterns emerging.</p>
+              <p>UI frameworks are an attempt to solve these problems by abstracting the common elements into reusable modules - meaning developers can scaffold the elements of new applications with speed and ease.</p>
+              <p>The most widely used of these frameworks is Bootstrap, a comprehensive UI package developed by the team at Twitter. Complete with tools to normalize stylesheets, build modal objects, add JavaScript plugins, and a plethora of other features, Bootstrap can dramatically cut down on the amount of code (and time) needed to build your project.</p>
+            </div>
+          </div>
+        </div>        
+      </div>         
+    </div>    
+    
+    <!-- Footer -->
+    <footer class="text-center">
+      <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+      </a><br><br>
+      <p><a href="mailto:minjie128@gmail.com?Subject=I%20Love%20UX%20Design%20Too">minjie128@gmail.com</a></p>
+      <p>&copy; 2016 Jie Min</p> 
+    </footer>
+    
+    <script>
+    $(document).ready(function(){
+      // Initialize Tooltip
+      $('[data-toggle="tooltip"]').tooltip(); 
+
+      // Add smooth scrolling to all links in navbar + footer link
+      $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 900, function(){
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    })
+    </script>   
+    
+  </body>
+</html>
