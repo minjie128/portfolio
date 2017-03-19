@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Web Performance | Jie Min</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Work+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/first-stylesheet.css">
+    <script src="https://use.fontawesome.com/1ccdb6bc24.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Jie Min</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Porfolio</a></li> 
+          <li><a href="about.html">About</a></li> 
+          <li><a href="#" class="current-page">Blog</a></li> 
+        </ul>
+      </nav>
+    </header>
+    <main class="final-essay">
+      <article>
+        <h1>Strategies for improving load time of web sites</h1>
+        <p>Speed has been one of the most overlooked aspects when it comes web sites. People lay emphasis on the site layout, navigation, functionality, call to action, etc. while web performance is actually becoming more and more important today.</p>
+        <p>Why should we care about the load time of web sites? Because having a faster loading site will help produce better user experience and better business results. According to studies, the average user expects a website to load in two seconds or less. A one-second delay in page load time equals to 11% fewer page views, 7% fewer conversions, and 16% decrease in customer satisfaction. Also Google has indicated that site speed is one of the signals used by its algorithm to rank pages. Therefore, it is apparent that a faster website will greatly increase visitors, conversions, and revenue.</p>
+        <p>Now that we realize the significance of website load time, how should we speed up the website? After doing some research, below are the most common and useful ways to decrease the page load time and improve the performance.</p>
+        <div>
+          <h3>Enable browser caching</h3>
+          <p>Browser caching is a technology that allows us to store copies of our site’s individual pages locally in the browser, so that the entire page doesn’t need to be reloaded when we return later. This helps reduce the number of server requests and the amount of data that browser needs to download to display the pages. There are many options to do with the cache setting, such as using a plugin like WordPress W3 Total Cache, or integrating browser caching into the server-side scripting.</p>
+        </div>
+        <div>
+          <h3>Utilize CDNs</h3>
+          <p>CDN is short for content delivery network. The simplest definition I found of a content delivery network (CDN) is “a collection of web servers distributed across multiple locations so content can be more efficiently delivered to users”. By using a CDN, instead of always accessing the web host’s server at its central location, a faster server may be selected close to the user’s geographical location. Besides, we won’t have to worry about the site crashing when the server is overloaded, since it can be changed to a new server location easily. Thus, CDNs will definitely help improve the average site load time.</p>
+        </div>
+        <div>
+          <h3>Optimize images</h3>
+          <p>Large high-resolution images always slow down the loading speed of a website. There are quite many recommendations on how to optimize images. One of the easiest ways is to use a photo editor to resize the images before adding them to your page. Ideally, we would use vector graphics if possible and use the best image type format. Besides, it can be beneficial if we specify the sizes of images, including both height and width. The browser will display the content of web page more quickly since it is able to know the sizes of images immediately. </p>
+          <p>Today, more and more attention is paid to responsive web design, and the concept of responsive images is a very critical part of it. Responsive images actually improve the loading speeds since they allow us to display different images based on the screen sizes, resolution, etc. Therefore, only the applicable size of the image will be loaded, which significantly reduces the page load speed.</p>
+        </div>
+        <div>
+          <h3>Minify HTML, CSS and JavaScript</h3>
+          <p>One of the critical factors in web performance is the web page weight. We’re able to reduce the page weight by removing all the unnecessary characters (e.g. whitespace, comments, etc.) without changing any functionality. This is known as the minification technique, and there are many tools we can use to minify our HTML, CSS and JavaScript files. Thus it’ll be easier for browser to display the content.</p>
+        </div>
+        <div>
+          <h3>Better order the page components</h3>
+          <p>It is always important to keep our codes as neat as we can for many reasons. In most cases, it would help speed up our website if we keep CSS files at the very top of the page while the JavaScript part at the bottom. At the same time, in order to better improve the performance, we may want to disable some dynamic features first and enable them only after the page has been entirely loaded. This way, JavaScript is loaded after most of the content is downloaded for the page display, which increases the speed of the overall page loading.</p>
+        </div>
+        <div>
+          <h3>Eliminate unnecessary plugins</h3>
+          <p>When adding a new plugin to the site, we will need more resources to run it, which means it may slow down the site’s loading speed. Thus we should think carefully whether we really need the plugin before adding it, although there are just too many free plugins available nowadays. We may also consider if we could code the content of the plugin into our site instead.</p>
+        </div>
+        <div>
+          <h3>Avoid using redirects</h3>
+          <p>It’s not good practice to have too many pages being redirected on you website. Redirects slow down the load time of a page under most circumstances, so that the users will spend more time waiting for the content they are looking for. So cleaning up the redirecting URLs on the website can be very helpful to decrease the page loading time and make the users happy.</p>
+        </div>
+        <p>In a nutshell, investment in improving a site’s speed can produce very high returns at affordable cost. There are a lot more techniques that can be used to optimize the web performance, but list of strategies above will be a good place to start if you find that your website running slower than expected.</p>
+      </article>
+      <hr>
+      <section>
+        <h2>Leave a Reply</h2>
+        <textarea placeholder="Enter your comments here..." rows="6"></textarea>
+      </section>
+    </main>
+    <footer>
+      <p><a href="mailto:minjie128@gmail.com?Subject=I%20Love%20UX%20Design%20Too">minjie128@gmail.com</a></p>
+      <p>&copy; 2016 Jie Min</p>
+      <p>
+        <span><a href="https://twitter.com/minjie128" target="_blank"><i class="fa fa-twitter"></i></a></span>
+        <span><a href="https://www.linkedin.com/in/jie-min-b9b02681" target="_blank"><i class="fa fa-linkedin"></i></a></span>
+        <span><a href="https://github.com/minjie128" target="_blank"><i class="fa fa-github-alt"></i></a></span>
+      </p>
+    </footer>
+  </body>
+</html>
